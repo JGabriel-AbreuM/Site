@@ -1,0 +1,115 @@
+
+body {
+    background-color: #FFFFFF;
+}
+header {
+    background-color: #F7F7F7;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+header img {
+    width: 500px;
+    height: 200px;    
+}
+
+section {
+
+    padding: 2em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.competencias ul {
+    text-align: center;
+}
+.languages {
+    display: inline-block;
+    margin-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.img-list {
+    width: 3em;
+    height: 3em;
+    float: initial;
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.img-list:hover {
+    opacity: 1;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+.info {
+    clear: both;
+}
+
+h3 {
+    padding-left: 3em;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.academic {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+#ano {
+    /*margin-bottom: auto;*/
+    margin-top: auto;
+}
+
+.academic h3{
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 15px;    
+}
+
+.logo-escola {
+    height: 150px;
+    width: 100px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 10px;
+    padding-bottom: 2em;
+}
+
+.academic a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.academic a:hover {
+    text-decoration-line: underline;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background: url(./IMAGENS/bg.jpg);
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer i {
+    padding: 20px;
+    font-size: 22pt;
+}
+
+footer i:hover {
+    transform: scale(1.05);
+}
